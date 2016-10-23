@@ -1,0 +1,69 @@
+html,body {
+    height:100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #ebebe6;
+}
+.serverURL {
+    display: none;
+}
+.touchpad {
+    height: 50%;
+    background: #ebebe6;
+    box-shadow: inset 2px 2px 6px #999;
+    margin: 0 2px;
+    border-radius: 0 0 15px 15px;
+}
+
+.button-wrap {
+    width: 100%;
+}
+.button-wrap {
+    text-align: center;
+}
+.page-wrap {
+    margin-top: 50px;
+}
+.button-wrap .page-next, .button-wrap .page-back {
+    display: inline-block;
+    border: 1px solid #272636;
+    border-radius: 10px;
+}
+
+.button-wrap .page-back {
+    margin-left: 80px;
+}
+.key-wrap {
+    margin-top: 20px;
+}
+.exit, .screening-begin, .screening-current {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #272636;
+    margin: 0 15px;
+    border-radius: 8px;
+}
+.touchpad .touch {
+    height: 80%;
+}
+.touchpad .mouse {
+    text-align: center;
+    height: 20%;
+}
+.touchpad .mouse .left-button,
+.touchpad .mouse .right-button,
+.touchpad .mouse .division-line {
+    height: 100%;
+    width: 45%;
+    display: inline-block;
+    font-size: 0px;
+}
+.touchpad .mouse .division-line {
+    width: 0px;
+    border: 1px solid #cecaca;
+    height: 45px;
+    margin-bottom: 10px;
+}

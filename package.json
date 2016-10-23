@@ -1,0 +1,34 @@
+{
+  "name": "ppt-controller",
+  "version": "1.0.0",
+  "description": "control ppt by mobile, don't need install soft",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "hbs": "^4.0.1",
+    "express": "^4.9.8",
+    "socket.io": "^1.1.0",
+    "robotjs": "^0.4.5",
+    "qrcode.console": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshidong/PPT-CONTROLLER.git"
+  },
+  "keywords": [
+    "ppt",
+    "controller",
+    "node",
+    "mobile"
+  ],
+  "author": "keshidong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keshidong/PPT-CONTROLLER/issues"
+  },
+  "homepage": "https://github.com/keshidong/PPT-CONTROLLER#readme"
+}
