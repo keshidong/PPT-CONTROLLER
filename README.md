@@ -11,3 +11,6 @@ ppt controller, 控制PPT翻页，全屏，退出等。
 1. clone代码
 2. 敲入cmd命令（在代码根目录下，即index.js所在目录）
 ```node index```
+
+3. 手机输入url， 或者通过微信扫码
+
